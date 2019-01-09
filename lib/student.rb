@@ -26,6 +26,7 @@ class Student
       FROM students
       WHERE name = ?
       LIMIT 1
+    SQL
   end
 
   def save
