@@ -37,6 +37,7 @@ class Student
       SELECT *
       FROM students
       WHERE grade = '9th'
+      SQL
   end
 
   def save
