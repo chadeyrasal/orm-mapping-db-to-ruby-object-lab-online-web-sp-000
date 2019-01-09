@@ -38,6 +38,7 @@ class Student
       FROM students
       WHERE grade = '9th'
       SQL
+    DB[:conn].execute(sql)
   end
 
   def save
